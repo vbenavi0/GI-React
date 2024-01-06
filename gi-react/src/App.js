@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <p>My name is Victor, I am 19 years old, and I am from El Salvador</p>
-    </div>
-  );
-}
+import React, { Component } from 'react'
 
-export default App;
+export default class app extends Component {
+    constructor(props){
+        super()
+        this.state = {
+          person: {}
+        }
+    }
+
+  render() {
+    return (
+      <div className="App">
+        <p>My name is Victor, I am 19 years old, and I am from El Salvador</p>
+      </div>
+    )
+  }
+}
