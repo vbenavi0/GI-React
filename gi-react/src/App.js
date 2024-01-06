@@ -2,17 +2,17 @@ import './App.css';
 
 import React, { Component } from 'react'
 
-export default class app extends Component {
+export default class App extends Component {
     constructor(props){
         super()
         this.state = {
-          person: {}
+          person: {BasicInfo: props.info}
         }
     }
   render() {
     return (
       <div className="App">
-        <p>My name is Victor, I am 19 years old, and I am from El Salvador</p>
+        <p>{this.state.person.BasicInfo}</p>
       </div>
     )
   }
