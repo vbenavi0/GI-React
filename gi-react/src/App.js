@@ -9,7 +9,6 @@ export default class app extends Component {
           person: {}
         }
     }
-
   render() {
     return (
       <div className="App">
