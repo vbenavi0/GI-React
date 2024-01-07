@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App info = 'Victor, 19 years old, Male'/>
+    <App info = 'Victor, 19 years old' people = {[{BasicInfo: 'Tommy, 19 years old'}, {BasicInfo: 'Jaylin, 19 years old'}, {BasicInfo: 'Oscar, 26 years old'}, {BasicInfo: 'Reggie, 25 years old'}]}/>
   </React.StrictMode>
 );
 
